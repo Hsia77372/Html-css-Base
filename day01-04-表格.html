@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--表格
+			table
+			tr  定义行
+			td  定义列
+			th  定义表头默认文字加粗并且水平居中
+			ps:单元格属于列
+			border   边框属性
+			width    宽度
+			height   高度
+			align    水平对齐 left center right
+			colspan  合并列
+			rowspan  合并行
+			caption      表格的标题-定义在表格内部，显示在表格外部
+			cellspacing  单元格和单元格之间的距离
+			cellpadding  内容和单元格左边框之间的距离
+			valign       垂直对齐方式
+				top      上对齐
+				middle   中间对其
+				bottom   下对齐
+
+			
+		-->
+		<!--3行4列的表格-->
+		<table border="1" cellspacing="0" cellpadding="20" width="600" height="400" align="center">
+			<caption>表格的标题-定义在表格内部，显示在表格外部</caption>
+			<tr>
+				<th valign="middle">表头</th>
+				<th>表头</th>
+				<th>表头</th>
+				<th>表头</th>
+			</tr>
+			<tr>
+				<td>1-1</td>
+				<td>1-2</td>
+				<td>1-3</td>
+				<td rowspan="3">1-4+2-4+3-4</td>
+			</tr>
+			<tr>
+				<td>2-1</td>
+				<td>2-2</td>
+				<td>2-3</td>
+				<!--<td>2-4</td>-->
+			</tr>
+			<tr>
+				<td colspan="2">3-1+3-2</td>
+				<!--<td>3-2</td>-->
+				<td>3-3</td>
+				<!--<td>3-4</td>-->
+			</tr>
+		</table>
+	</body>
+</html>

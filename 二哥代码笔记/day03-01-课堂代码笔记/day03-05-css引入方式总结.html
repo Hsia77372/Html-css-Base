@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			p{
+				color: blue;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<!--行内引入
+			在标签内部书写css样式
+			如：<div style="color: red;">红色</div>
+		-->
+		<div style="color: red;">红色</div>
+		
+		<!--内部引入
+			在head标签内部通过style来定义样式，style标签内部是通过选择器
+			如：
+			<head>
+				<meta charset="UTF-8">
+				<title></title>
+				<style type="text/css">
+					p{
+						color: blue;
+					}
+				</style>
+			</head>
+		-->
+		
+		<p>段落标签-蓝色</p>
+		
+		<!--外部引入
+			在head标签内部通过link标签引入外部css文件
+			如：
+			<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		-->
+		<ul>
+			<li>列表</li>
+		</ul>
+	</body>
+</html>

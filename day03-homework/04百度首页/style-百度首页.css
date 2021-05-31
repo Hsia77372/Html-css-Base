@@ -1,0 +1,27 @@
+p{
+    text-align: center;
+}
+
+.p1{
+    width: 460px;
+    height: 25px;
+}
+.p2{
+    font-size: 14px;
+}
+
+.p3{
+    width: 100px;
+    height: 30px;
+}
+
+.p4{
+    font-size: 14px;
+}
+
+.div1{
+    height: 50px;
+}
+.div2{
+    line-height: 5px;
+}

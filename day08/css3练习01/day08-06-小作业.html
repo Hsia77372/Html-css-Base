@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            background: #ccc;
+            border-radius: 50%;
+            position: relative;
+        }
+        .top-bottom{
+            width: 10px;
+            height: 400px;
+            background: #333;
+            position: absolute;
+            left: 50%;
+            margin-left: -8px;
+        }
+        .box2-7{
+            width: 10px;
+            height: 400px;
+            background: #666;
+            position: absolute;
+            left: 50%;
+            margin-left: -8px;
+            transform: rotate(30deg);
+        }
+        .box3-8{
+            width: 10px;
+            height: 400px;
+            background: #666;
+            position: absolute;
+            left: 50%;
+            margin-left: -8px;
+            transform: rotate(60deg);
+        }
+        .left-right{
+            width: 400px;
+            height: 10px;
+            background: #333;
+            position: absolute;
+            top: 50%;
+            margin-top: -8px;
+        }
+        .box5-10{
+            width: 400px;
+            height: 10px;
+            background: #666;
+            position: absolute;
+            top: 50%;
+            margin-top: -8px;
+            transform: rotate(30deg);
+        }
+        .box6-11{
+            width: 400px;
+            height: 10px;
+            background: #666;
+            position: absolute;
+            top: 50%;
+            margin-top: -8px;
+            transform: rotate(60deg);
+        }
+        .child{
+            width: 360px;
+            height: 360px;
+            background: white;
+            position: absolute;
+            top: 50%;
+            margin-top: -180px;
+            left: 50%;
+            margin-left: -180px;
+            border-radius: 50%;
+            background: url(tx33.jpg);
+            background-size: 100% 100%;
+        }
+        .child{
+            width: 360px;
+            height: 360px;
+            background: white;
+            position: absolute;
+            top: 50%;
+            margin-top: -180px;
+            left: 50%;
+            margin-left: -180px;
+            border-radius: 50%;
+            background: url(tx33.jpg);
+            background-size: 100% 100%;
+        }
+        .hour{
+            width: 8px;
+            height: 60px;
+            background: black;
+            position: absolute;
+            left: 50%;
+            margin-left: -4px;
+            bottom: 50%;
+            transform-origin: bottom center;
+        }
+        .f{
+            width: 4px;
+            height: 80px;
+            background: green;
+            position: absolute;
+            left: 50%;
+            margin-left: -2px;
+            bottom: 50%;
+            transform-origin: bottom center;
+        }
+        .s{
+            width: 2px;
+            height: 120px;
+            background: red;
+            position: absolute;
+            left: 50%;
+            margin-left: -1px;
+            bottom: 50%;
+            transform: rotate(30deg);
+            transform-origin: bottom center;
+        }
+        .center{
+            width: 10px;
+            height: 10px;
+            background: black;
+            position: absolute;
+            top: 50%;
+            margin-top: -5px;
+            left: 50%;
+            margin-left: -5px;
+            border-radius: 50%;
+        }
+        .logo{
+            width: 200px;
+            height: 40px;
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
+            bottom: 10%;
+            text-align: center;
+            line-height: 40px;
+            font-style: italic;
+            color: green;
+        }
+        /* .box:hover .child{
+            transition: all 60s;
+            transform: rotate(720deg) scale(1);
+        }
+        .box:hover .s{
+            transition: all 60s;
+            transform: rotate(360deg);
+        } */
+        .s{
+            animation: move 60s /* steps(60) */ linear infinite;
+        }
+        .f{
+            animation: move 3600s /* steps(60) */ linear infinite;
+        }
+        .hour{
+            animation: move 216000s /* steps(60) */ linear infinite;
+        }
+        .child{
+            animation: move 60s linear infinite;
+        }
+        @keyframes move{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top-bottom"></div>
+        <div class="box2-7"></div>
+        <div class="box3-8"></div>
+        <div class="left-right"></div>
+        <div class="box5-10"></div>
+        <div class="box6-11"></div>
+        <div class="child"></div>
+        <div class="hour"></div>
+        <div class="f"></div>
+        <div class="s"></div>
+        <div class="center"></div>
+        <h2 class="logo">药哥为你保驾护航</h2>
+    </div>
+</body>
+</html>

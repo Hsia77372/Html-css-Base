@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style type="text/css">
+            .box{
+                width: 300px;
+                height: 300px;
+                border: 10px solid red;
+                text-align: center;
+                font-size: 100px;
+                /*line-height: 300px;*/
+                /*设置垂直居中改行高和盒子一样高*/
+
+                /*display: inline-block;  行内块标签*/
+                /*display: inline;  转换成行内标签*/
+               /*
+                块标签    block     独占一行，可以直接设置宽高
+                行内标签   inline   在一行显示，不能直接设置宽高
+                行内块标签  inline-block  在一行显示可以设置宽度和高度
+                */
+            }
+            .text{
+                width: 200px;
+                height: 200px;
+                border: 5px solid green;
+                /*display: inline-block;*/
+                /*display: block;*/
+                display: none;  /*隐藏元素不显示*/
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">1</div>
+        <div class="box">2</div>
+       <!-- <img src="images/a.png" alt="" width="200">
+        <img src="images/a.png" alt="" width="200">-->
+        <!--转换为行内块元素后两个盒子之间有距离，换行导致-->
+        <span class="text">好谷</span>
+        <span class="text">好谷</span>
+    </body>
+</html>

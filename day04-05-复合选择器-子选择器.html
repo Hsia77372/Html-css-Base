@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style type="text/css">
+            /*子选择器
+                用大于号隔开
+            */
+            .list >li{
+                border: 10px solid red; /*中间用空格隔开*/ /*边框不会继承*/
+                /*solid实线  dashed虚线  dotted点线  double双实线*/
+                text-decoration: underline;
+                color: red;
+                /*继承，文本样式基本都会继承*/
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="list">
+            <li>  <!--儿子-->
+                服装
+                <ul>
+                    <li>男装</li>  <!--list 重孙子级别-->
+                    <li>女装</li>
+                    <li>童装</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

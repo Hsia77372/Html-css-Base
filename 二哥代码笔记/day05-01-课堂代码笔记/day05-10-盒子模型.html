@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			span{
+				background: red;
+				padding: 100px 50px;
+				margin-top: 200px;
+				display: inline-block;
+			}
+			.box{
+				width: 500px;
+				height: 100px;
+				background: green;
+				
+				/*border-radius
+				 四个值：左上角，右上角，右下角，左下角
+				 三个值：左上角，右上角和左下角，右下角
+				 两个值：左上角右下角，右上角和左下角
+				 一个值：四个角一致
+				 * */
+				border-radius:80%;
+			}
+		</style>
+	</head>
+	<body>
+		<!--行内元素设置上边内边距padding-top和上边外边距无效margin-top-->
+		<span>好谷</span>
+		<span>就业力</span>
+		
+		<div class="box"></div>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">/*标签选择器  div{}*/
+			.box{
+				width: 300px;
+				height: 300px;
+				border: 10px solid red;
+				text-align: center;
+				font-size: 100px;
+				/*line-height: 300px;*/
+				
+				display: inline-block;  /*转换成为行内块标签*/
+				/*display: inline;  转换成为行内标签*/
+				/*
+				块标签			block   独占一行，可以直接设置宽高
+				行内标签			inline 	在一行显示，不能直接设置宽高
+				行内块标签		inline-block  在一行显示可以设置宽度和高度
+				
+				* */
+			}
+			.text{
+				width: 200px;
+				height: 200px;
+				border: 5px solid green;
+				/*display: inline-block;*/
+				/*display: block;*/
+				display: none;  /*隐藏元素不显示*/
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">1</div>
+		<div class="box">2</div>
+		<!--<img src="img/tx33.jpg" width="300" alt="" /><img src="img/tx33.jpg" width="300" alt="" />-->
+		<span class="text">好谷1</span>
+		<span class="text">好谷2</span>
+	</body>
+</html>

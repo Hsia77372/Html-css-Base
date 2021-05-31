@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style type="text/css">
+            /*并集选择器或者分组选择器*/
+            .box{
+                font-size: 66px;
+                text-decoration: underline;
+            }
+            .red{
+                font-size: 88px;
+            }
+            /*多个选择器用逗号隔开--并集选择器*/
+            .box,.red,strong,#abc{
+                color: red;
+                font-style: italic;
+            }
+            h1,h2,h3,h4,h5,h6{
+                font-weight: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            好谷就业力
+        </div>
+        <p class="red">
+            好谷二哥
+        </p>
+        <strong>加粗</strong>
+        <span id="abc">span标签</span>
+        <h1>标题1</h1>
+        <h2>标题2</h2>
+        <h3>标题3</h3>
+        <h4>标题4</h4>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+
+.da{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.small{
+    font-size: 14px;
+}
+
+.span1{
+    color: #DBE6E7;
+}
+.span2{
+    width: 40px;
+}
+
+.span3{
+    width: 26px;
+}
+
+div{
+    text-align: center;
+}
+
+
+.p1{
+   text-indent: 32px;
+    text-align: justify;
+}
+.p2{
+    text-align: right;
+}
+img{
+    width: 720px;
+    height: 700px;
+}
+
+.p3{
+    margin-left: 36px;
+    margin-right: 36px;
+}

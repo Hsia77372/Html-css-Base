@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            height: 200px;
+            width: 200px;
+            background: pink;
+            position: relative;  /* 相对定位 */
+            left: 100px;
+            top: 100px;
+            z-index: 2;  /* 数值越大越靠上，数值越大优先级越高 */
+        }
+        .content{
+            height: 300px;
+            width: 100%;
+            background: green;
+            position: relative;
+            z-index: 1;
+        }
+        .top{
+            width: 100%;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 定位 position
+         position: relative;  相对定位-相对于自身位置(原来的位置)的定位
+         z-index 属性配合定位使用，数值越大越靠上，数值越大优先级越高
+            注意事项：z-index 只能改变兄弟元素的层级
+    -->
+    <div class="top"></div>
+    <div class="header"></div>
+    <div class="content"></div>
+</body>
+</html>

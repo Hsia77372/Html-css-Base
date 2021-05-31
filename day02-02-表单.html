@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h2>表单标签</h2>
+		<form action="#" method="get" name="">
+
+
+			<!--type="text"      单行文本输入框
+				type="password"  密码框
+				value        表单默认的值
+				placeholder  提示占位符
+				maxlength    最多可以输入的文字长度
+				name         表单名称
+				属性和属性值相同可省略，简写为属性即可
+				size         可以调整输入框的宽度
+			-->
+			<input type="text" size="50" maxlength="11" value="" placeholder="用户名" /><br /><br />
+			<input type="password"  placeholder="密码" value="" name="pass" /><br /><br />
+			
+			
+			<!--type="radio"  单选框
+				可以通过label中的for属性关联id达到点击文字选中
+				name="任意定义"  相同name值只能选中一个
+			-->
+			<input type="radio" name="sex" id="nan" /><label for="nna">男</label>
+			<input type="radio" name="sex" id="nv" checked="checked" /><label for="nv">女</label><br /><br />
+			
+			
+			<!--type="checkbox"  复选框
+				checked="checked"  默认选中，可以简写为checked
+			-->
+			<input type="checkbox" name="a" id="code" checked /><label for="code">敲代码</label>
+			<input type="checkbox" name="a" id="music" /><label for="music">听歌</label><br /><br />
+			
+			
+			<!--select  下拉选择框
+				option  选项
+				selected="selected"  默认选中，可以简写为selected
+			-->
+			<select>
+				<option value="">上海</option>
+				<option value="">杭州</option>
+				<option value="">郑州</option>
+				<option value="" selected>回家</option>
+			</select><br /><br />
+			
+			<!--optgroup  下拉选择框组-->
+			<select>
+				<optgroup label="河南">
+					<option value="">上海</option>
+					<option value="">杭州</option>
+					<option value="">郑州</option>
+					<option value="" selected>回家</option>
+				</optgroup>
+				<optgroup label="河北">
+					<option value="">上海</option>
+					<option value="">杭州</option>
+					<option value="">郑州</option>
+					<option value="" selected>回家</option>
+				</optgroup>
+			</select><br /><br />
+			
+			
+			<!--textarea  多行文本框
+				cols      可见列
+				rows      可见行
+			-->
+			<textarea name="" rows="5" cols="50"></textarea><br /><br />
+			
+			
+			<input type="button" name="" id="" value="普通按钮" />
+			<input type="reset" name="" id="" value="重置按钮" />
+			<input type="submit" name="" id="" value="提交按钮" />
+		</form>
+		
+	</body>
+</html>

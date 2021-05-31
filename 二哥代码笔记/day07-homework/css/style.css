@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.list{
+	width: 1490px;
+	height: 820px;
+	margin: 0 auto;
+	background: #fff;
+}
+.list > ul > li{
+	width: 290px;
+	height: 400px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;  /*鼠标移入出现手型*/
+}
+.list > ul > li:nth-child(5n){
+	margin-right: 0;
+}
+.list > ul > li:first-child{
+	background: url(../images/sprite.png) no-repeat #ccc;
+	background-size:870px 800px;
+	background-position: -580px 0;
+}
+.list > ul > li:first-child h2{
+	width: 140px;
+	height: 40px;
+	background: red;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	border-radius: 20px;
+	margin: 24px auto;
+}
+.list > ul > li:first-child > ul >li{
+	width: 108px;
+	height: 46px;
+	border: 1px solid red;
+	border-radius: 6px;
+	text-align: center;
+	line-height: 46px;
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	color: red;
+}
+.list > ul > li:first-child > ul >li:hover{
+	background: red;
+	color: #fff;
+}
+.list > ul > li.item{
+	position: relative;
+}
+.list > ul > li.item img{
+	width: 188px;
+	height: 188px;
+	display: block;
+	margin: 40px auto;
+}
+.list > ul > li.item p{
+	width: 90%;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 5%;
+}
+.list > ul > li.item .btn{
+	width: 290px;
+	height: 56px;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	left: 0;
+	top: 320px;
+	display: none;
+}
+.list > ul > li.item .btn a{
+	display: block;
+	width: 150px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background: #333;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 18px;
+	text-decoration: none;
+	margin: 10px auto ;
+}
+.list > ul > li.item .btn a:hover{
+	background: #FF0000;
+}
+.list > ul > li.item .close{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	display: none;
+}
+.list > ul > li.item h3{
+	color: red;
+	margin-left: 5%;
+}
+.list > ul > li.item:hover .close,.list > ul > li.item:hover .btn{
+	display: block;
+	
+}
+.aside{
+	width: 74px;
+	height: 400px;
+	background-color: #f00;
+	position: fixed;
+	left: 50%;
+	margin-left: 750px;
+	top: 100px;
+}
+.wrap{
+	width: 1490px;
+	height: 3000px;
+	background: pink;
+	margin: 0 auto;
+	position: relative;
+}

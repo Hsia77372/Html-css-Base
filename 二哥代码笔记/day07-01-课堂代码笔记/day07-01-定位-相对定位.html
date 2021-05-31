@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.header{
+				height: 200px;
+				width: 200px;
+				background: pink;
+				position: relative;
+				left: 100px;
+				top: 100px;
+				z-index: 4;
+			}
+			.content{
+				height: 300px;
+				width: 100%;
+				background: green;
+				position: relative;
+				z-index: 3;
+			}
+			.top{
+				width: 100%;
+				height: 100px;
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--定位 position
+			position: relative;  相对定位-相对于自身位置的定位
+			z-index属性是配合定位使用的，值越大越靠上
+				注意事项：z-index只能改变兄弟元素的层级
+		-->
+		<div class="top"></div>
+		<div class="header"></div>
+		<div class="content"></div>
+		
+	</body>
+</html>

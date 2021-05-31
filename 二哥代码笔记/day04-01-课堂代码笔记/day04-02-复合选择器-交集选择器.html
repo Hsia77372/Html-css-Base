@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*标签选择器   权重1
+			类选择器          权重10
+			ID选择器 	权重100     
+			*/
+			/*
+			 * 交集选择器
+			 * 其中第一个为标签选择器，第二个为class选择器，两个选择器之间不能有空格。*/
+			div.box{  /*1+10=11*/
+				color: blue;
+			}
+			.box{  /*10*/
+				color: red;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			好谷就业力
+		</div>
+	</body>
+</html>

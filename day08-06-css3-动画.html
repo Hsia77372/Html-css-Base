@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 200px;
+            width: 30px;
+            background: red;
+            margin: 0 auto;
+            border-radius: 0 0 50% 50%;
+            transform-origin: center bottom;
+            /* 执行动画 */
+            /* steps  步长 */
+            /* infinite  无穷大 */
+            /* linear  匀速 */
+            /* animation  动画名称  动画执行时间  步长  执行次数 */
+            animation: move 60s steps(60) infinite;
+        }
+
+        /* 定义动画 */
+        /* move--动画名称 */
+        @keyframes move{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        
+        .pox{
+            height: 200px;
+            width: 30px;
+            background: red;
+            margin: 0 auto;
+            border-radius: 0 0 50% 50%;
+            transform-origin: center bottom;
+            animation: move 3600s steps(60) infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="pox"></div>
+</body>
+</html>

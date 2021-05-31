@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--内部引入样式
+			说明：
+			1.网页默认的字体大小16px  px是像素单位
+			     如果要定义中文字体大小，要写成偶数，最小的中文字体大小为12px
+			     网页中中文字体类型默认为黑体--window系统--默认为微软雅黑  微软雅黑也属于黑体
+		-->
+		<style type="text/css">
+			div{
+				color: red;  
+				/*color定义字体颜色*/
+				font-size: 50px;  
+				/*定义字体大小*/
+				font-weight: bold;  
+				/*font-weight定义字体粗细  bold相当于700*/
+				font-family: "宋体";
+				/*定义字体类型*/
+				/*只有 font-family 可以写中文*/
+				font-style: italic;  
+				/*font-style 定义字体样式
+				 *	italic  斜体
+				 *	normal  正常的
+				 * */
+				
+			}
+			h1{
+				font-weight: 400;
+				/*font-weight: normal 设置文字不加粗  normal相当于400*/
+				font-family: "微软雅黑" arial "楷体";  
+				/*定义字体类型
+				 *只有 font-family 可以写中文
+				 * */
+				
+			}
+			
+			i{
+				font-size: 50px;
+				font-weight: bold;
+				color: red;
+				font-style: normal;
+			}
+		</style>
+	</head>
+	<body>
+		<div>好谷就业力</div>
+		<h1>好谷就业力</h1>
+		<i>好谷</i>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+ul{
+    text-align: center;
+}
+li{
+    height: 112px;
+    background-image: url(images/abcd.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.x{
+    width: 110px;
+    background-position: -253px -558px;
+}
+.i{
+    width: 63px;
+    background-position: -325px -140px;
+}
+.a{
+    width: 110px;
+    background-position: 0 -6px;
+}
+.u{
+    width: 110px;
+    background-position: -475px -420px;
+}
+.w{
+    width: 138px;
+    background-position: -115px -560px;
+}
+.o{
+    width: 110px;
+    background-position: -372px -275px;
+}
+.e{
+    width: 110px;
+    background-position: -480px -6px;
+}
+.none{
+    width: 50px;
+    background: transparent;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style type="text/css">
+            span{
+                background: red;
+                padding: 100px 50px;
+                margin-top: 200px;  /*行内元素上下外边距无效*/
+                display: inline-block;  /*行内元素上下外边距要想有作用，转为行内块元素*/
+            }
+            .box{
+                width: 500px;
+                height: 100px;
+                background: green;
+
+                /*border-radius
+               四个值：分别是 左上角、右上角、右下角、左下角
+               三个值：分别是 左上角、右上角和左下角、右下角
+               两个值：分别是 左上角和右下角、右上角和左下角
+               一个值：四个角一致
+               里面的值可以写像素也可以写百分比*/
+                border-radius: 80%;
+                /*50%以后都一样，多余*/
+            }
+        </style>
+    </head>
+    <body>
+        <!--行内元素设置上边内边距 padding-top 和上边外边距 margin-top 无效-->
+        <span>好谷</span>
+        <span>就业力</span>
+
+        <div class="box"></div>
+    </body>
+</html>

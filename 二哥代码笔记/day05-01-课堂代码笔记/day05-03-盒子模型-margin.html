@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*清空所有标签的默认内边距和外边距*/
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.box{
+				width: 200px;
+				height: 200px;
+				background: red;
+				margin-bottom: -100px;	
+			}
+			.pox{
+				width: 200px;
+				height: 200px;
+				background: green;
+				margin-top: -200px;
+				margin-left: 100px;
+			}
+			
+			/*注意事项：上下外边距会叠加
+			  叠加规则：1、同为正数，取值最大的
+			  		  2、一正一负，取值为两者的和
+			  		  3、同为负数，取绝对值最大的那一个
+			 * */
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+		<div class="pox"></div>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*清空所有标签的默认内边距和外边距*/
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.header{
+				width: 1200px;
+				height: 100px;
+				background: red;
+				/*margin-left: auto;
+				margin-right: auto;
+				margin-top: 100px;
+				margin-bottom: 50px;*/
+				/*简写形式
+				 四个值：分别是  上、右、下、左
+				 三个值：分别是  上、左右、下
+				 两个值：分别是   上下、左右
+				 一个值：四个方向值一致
+				 * */
+				margin: 0 auto;
+				overflow: hidden;  /*可以阻止margin叠加*/
+				
+			}
+			.header .logo{
+				width: 200px;
+				height: 60px;
+				background: black;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo"></div>
+		</div>
+	</body>
+</html>

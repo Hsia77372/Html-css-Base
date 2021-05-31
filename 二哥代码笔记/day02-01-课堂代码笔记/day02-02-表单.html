@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h2>表单标签</h2>
+		<form action="login.html">
+			<!--
+				type="text"   单行文本输入框
+				type="password" 密码框
+					value 表单默认的值
+					placeholder  提示占位符
+					maxlength   最多可以输入的文字长度
+					name   表单名称
+					size="50"  可以调整输入框宽度大小
+			-->
+			<input type="text" size="50" maxlength="11" value="" name="username" placeholder="用户名" />
+			<input type="password" placeholder="密码" value="" name="pass" />
+			
+			<!--type="radio"  单选框
+				name="任意定义"    相同name值只能选中一个
+				可以通过label中的for属性关联 id 达到点击文字选中
+				checked="checked" 默认选中   可以简写  checked
+				-->
+			<input type="radio" name="sex" id="nan"/> <label for="nan">男</label>
+			<input type="radio" name="sex" id="nv" checked/> <label for="nv">女</label>
+			
+			<!--type="checkbox" 复选框
+				checked="checked" 默认选中   可以简写  checked
+				
+			-->
+			<input type="checkbox" name="a" id="code" checked="checked"/>  <label for="code">敲代码</label>
+			<input type="checkbox" name="b" id="music" />  <label for="music">听歌</label>
+			
+			<!--select 下拉选择框
+				option  选项
+				selected="selected"   默认选中那个选项
+			-->
+			<select name="">
+				<option value="">上海</option>
+				<option value="">杭州</option>
+				<option value="" >郑州</option>
+				<option value="" selected="selected">回家</option>
+			</select>
+			
+			<!--optgroup 下拉选择框组-->
+			<select>
+			  <optgroup label="河南省">
+			    <option value="zhengzhou">郑州</option>
+			    <option value="jiaozuo">焦作</option>
+			  </optgroup>
+			  <optgroup label="河北省">
+			    <option value="shijiazhuang">石家庄</option>
+			    <option value="handan">邯郸</option>
+			  </optgroup>
+			</select>
+			<!--
+				textarea  多行文本框
+				cols 可见列
+				rows 可见行
+				-->
+			<textarea name="" id="" cols="50" rows="5"></textarea>
+			
+			<input type="button" value="普通按钮" />
+			<input type="reset" value="重置按钮" />
+			<input type="submit" value="提交按钮" />
+			
+		</form>
+	</body>
+</html>

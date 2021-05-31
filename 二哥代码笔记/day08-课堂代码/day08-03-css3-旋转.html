@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.box{
+				width: 200px;
+				height: 200px;
+				background: red;
+				margin: 0 auto;
+				/*transform 变换
+				 	rotate(45deg)  旋转45deg
+				 * */
+				transition:all 0.5s;
+				/*transform-origin 设置变换的中心点
+				 	left bottom  左下
+				 	center bottom
+				 	right bottom 右下
+				 	left top     左上
+				 	right top    右上
+				 	center center 中间--默认
+				 	10px 20px
+				 	50% 50%
+				 * */
+				
+				transform-origin: center bottom;
+			}
+			.box:hover{
+				transform:rotate(-360deg);
+				
+				/*transition 
+				 *      all 所有的属性变换
+				 		2s 两秒
+				 * */
+				transition:all 0.5s;
+				
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+	</body>
+</html>

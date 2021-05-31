@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">/*标签选择器  div{}*/
+
+
+/*类选择器     .box{}   重点*/
+
+
+/*ID选择器 	#content{}*/
+
+
+/*通配符选择器 *{} */
+
+
+/*后代选择器 #content ul li{}  重点*/
+
+
+/*子选择器 #content ul > li{}*/
+
+
+/*并集选择器 .box,.pox{}   (统一声明)重点*/
+
+
+/*交集选择器 div.pox{}*/
+		.pox:hover{  /*鼠标移入pox类上面，内部的文字变成红色*/
+			color: red;
+		}
+		.heihai:hover{
+			width: 500px;
+		}
+		</style>
+	</head>
+	<body>
+		
+		<!--div.box>ul>li*3>a 按tab键-->
+		<div class="box" id="content">
+			<ul>
+				<li><a href="">好谷</a></li>
+				<li><a href="">就业力</a></li>
+				<li><a href="">二哥</a></li>
+			</ul>
+		</div>
+		<div class="pox">
+			好谷就业力-鼠标移入变成红色
+		</div>
+		<img src="img/tx33.jpg" class="heihai" alt="" width="300" />
+	</body>
+</html>

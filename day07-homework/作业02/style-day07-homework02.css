@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 1500px;
+    height: 140px;
+    position: relative;
+    left: 50%;
+    margin-left: -750px;
+}
+.top > ul > li{
+    list-style: none;
+    width: 265px;
+    height: 60px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    position: relative;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.top > ul > li > div{
+    width: 46px;
+    height: 46px;
+    background-image: url(images/icons.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 7px;
+}
+.top > ul > li:first-child div{
+    background-position: 5px -190px;
+}
+.top > ul > li:nth-child(2) div{
+    background-position: -36px -190px;
+}
+.top > ul > li:nth-child(3) div{
+    background-position: -77px -190px;
+}
+.top > ul > li:nth-child(4) div{
+    background-position: -120px -190px;
+}
+.center{
+    width: 1500px;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-left: -750px;
+}
+.center > ul > li{
+    list-style: none;
+    width: 230px;
+    height: 300px;
+    float: left;
+    margin-left: 16px;
+}
+.center > ul > li > dl > dt,
+.center > ul > li > dl > dd{
+    width: 230px;
+    height: 42px;
+}
+.center > ul > li:nth-child(6) dl dt{
+    text-align: center;
+    width: 230px;
+    height: 42px;
+}
+.center > ul > li:nth-child(6) dl dd:nth-child(2){
+    width: 230px;
+    height: 70px;
+    text-align: left;
+}
+.center > ul > li:nth-child(6) dl dd:nth-child(3){
+    width: 230px;
+    height: 150px;
+    text-align: right;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--action="提交数据的地址"
+			method="get"  提交数据的方法  
+			get默认的   
+			post 直接提交的服务器
+		-->
+		<h2>表单标签</h2>
+		<form action="" method="get">
+			<div>
+				<input type="text" name="user" id="" value="" placeholder="用户名" />
+			</div>
+			<div>
+				<input type="password" name="pass" placeholder="密码" />
+			</div>
+			<div>
+				<input type="radio" id="nan" checked="checked" name="sex" />
+				<label for="nan">男</label>
+				<input type="radio" id="nv" name="sex"/>
+				<label for="nv">女</label>
+			</div>
+			<div>
+				<input type="checkbox" id="code" checked="checked" />
+				<label for="code">敲代码</label>
+				<input type="checkbox" id="game" checked="checked" />
+				<label for="game">打游戏</label>
+			</div>
+			<div>
+				<select name="">
+					<option value="">河南省</option>
+					<option value="">河北省</option>
+					<option value="">湖南省</option>
+				</select>
+				<select name="">
+					<option value="">河南省</option>
+					<option value="">河北省</option>
+					<option value="">湖南省</option>
+				</select>
+				<select name="">
+					<option value="">河南省</option>
+					<option value="">河北省</option>
+					<option value="">湖南省</option>
+				</select>
+			</div>
+			<div>
+				<textarea name="" id="" cols="50" rows="5"></textarea>
+			</div>
+			<div>
+				<input type="button" value="普通按钮" />
+				<input type="reset" value="重置按钮" />
+				<input type="submit" value="提交按钮" />
+			</div>
+			
+			<h2>扩展</h2>
+			<input type="date" />  <!--选择日期-->
+			<input type="week" />  <!--选择周-->
+			<input type="month" />  <!--选择月-->
+			<input type="color" /> <!--选择颜色-->
+			<input type="number" />  <!--数字-->
+			<input type="file" />  <!--选择文件-->
+			<input type="image" src="a.png" />  
+			<!--type="image"可以设置图片，具有提交按钮的功能-->
+			
+		</form>
+	</body>
+</html>

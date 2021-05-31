@@ -1,0 +1,19 @@
+div{
+    text-align: center;
+    line-height: 700px;
+}
+.size{
+    font-size: 200px;
+}
+.blue{
+    color: #4286F5;
+}
+.red{
+    color: #EA4235;
+}
+.yellow{
+    color: #FABC05;
+}
+.green{
+    color: #34A853;
+}

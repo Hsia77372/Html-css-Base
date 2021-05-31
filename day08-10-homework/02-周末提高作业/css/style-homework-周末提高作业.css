@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-top{
+    width: 100%;
+    height: 5px;
+    background: #00497e;
+}
+.top-center{
+    width: 100%;
+    height: 30px;
+    background: #eff4f3;
+}
+.top-center>div{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+}
+.top-center > div > div:nth-child(1){
+    width: 300px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+}
+.top-center > div > div:nth-child(2) img{
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+.top-center > div > div:nth-child(3) input{
+    width: 200px;
+    height: 28px;
+    float: right;
+    border: 1px solid #cccccc;
+    background: #eff4f3;
+    margin: 0 10px;
+}

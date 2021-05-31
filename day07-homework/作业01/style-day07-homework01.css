@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigbox{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+}
+.box{
+    width: 1500px;
+    height: 960px;
+    background: #cccccc;
+    position: relative;
+    left: 50%;
+    margin-left: -750px;
+}
+.top{
+    width: 100%;
+    height: 100px;
+}
+.left li{
+    list-style: none;
+    width: 290px;
+    height: 400px;
+    background: white;
+    float: left;
+    margin-right: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+.left li:nth-child(5n){
+    float: right;
+    margin-right: 0;
+}
+.left li:nth-child(1){
+    background-image: url(images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 870px 800px;
+    background-position: -580px 0;
+}
+.header{
+    width: 125px;
+    height: 40px;
+    background-color: red;
+    margin: 25px auto 0;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    color:white;
+}
+.center dt{
+    width: 100px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px double #FFE9EF;
+    float: left;
+    text-align: center;
+    line-height: 44px;
+    color: #CA1D2A;	
+    font-weight: 500;
+}
+.center dt:nth-child(1){
+    margin-top: 47px;
+    margin-left: 35px;
+}
+.center dt:nth-child(2){
+    margin-top: -47px;
+    margin-left: 155px;
+}
+.center dt:nth-child(3),
+.center dt:nth-child(5),
+.center dt:nth-child(7){
+    margin-top: 15px;
+    margin-left: 35px;
+}
+.center dt:nth-child(4),
+.center dt:nth-child(6),
+.center dt:nth-child(8){
+    margin-top: -47px;
+    margin-left: 155px;
+}
+.center dt:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.shang{
+    width: 190px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.zhong{
+    width: 240px;
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 60px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 18px;
+}
+.xia{
+    width: 240px;
+    height: 60px;
+    margin-left: 25px;
+    font-family: "宋体";
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    font-size: 25px;
+    color: red;
+}
+.xia span{
+    font-size: 50px;
+}
+img{
+    width: 190px;
+    height: 180px;
+}
+.diy{
+    width: 45px;
+    height: 20px;
+    background: red;
+    font-size: 16px;
+    color: white;
+    margin-top: 6px;
+    border-radius: 3px;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+}
+.dicheng1{
+    width: 290px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 60px;
+    z-index: 88;
+    display: none;
+}
+.dicheng2{
+    width: 290px;
+    height: 60px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    bottom: 0px;
+    z-index: 88;
+    display: none;
+}
+.xiangshi{
+    width: 160px;
+    height: 40px;
+    background: #000;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 65px;
+    z-index: 99;
+    display: none;
+}
+.x{
+    width: 10px;
+    height: 10px;
+    color: #cccccc;
+    font-weight: 900;
+    line-height: 10px;
+    text-align: left;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    z-index: 99;
+    display: none;
+}
+li:hover .dicheng1,
+li:hover .dicheng2,
+li:hover .xiangshi,
+li:hover .x{
+    display: block;
+    cursor: pointer;
+}
+li .xiangshi:hover{
+    background: red;
+}
+.right{
+    width: 70px;
+    height:640px;
+    position: fixed;
+    background: white;
+    right: 80px;
+    top: 100px;
+    margin-left: 20px;
+}
+.right li{
+    list-style: none;
+    width: 50px;
+    height: 75px;
+    border-bottom: 1px #ccc solid;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+    position: relative;
+}
+.right li:nth-child(2) img{
+
+    width: 50px;
+    height: 75px;
+}
+.right li:nth-child(5),
+.right li:nth-child(8){
+    color: red;
+}
+.right li:nth-child(6) img,
+.right li:nth-child(7) img,
+.right li:nth-child(8) img{
+    width: 35px;
+    height: 35px;
+}
+.right li:nth-child(8){
+    border-bottom: none;
+}
+.right li:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}

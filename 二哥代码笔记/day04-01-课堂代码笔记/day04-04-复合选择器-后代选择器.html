@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*用空格隔开后代选择器*/
+			.list li img{  /*权重10+1+1=12*/
+				width: 500px;
+			}
+			.list img{ /*权重10+1=11*/
+				width: 200px;
+				height: 200px;
+			}
+			.list li a img{
+				width: 100px;
+				height: 100px;
+			}
+			.box li a img{
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="list">
+			<li>
+				<a href="">
+					<img src="img/tx33.jpg"/>
+				</a>
+			</li>
+		</ul>
+		<ul class="box">
+			<li>
+				<a href="">
+					<img src="img/tx33.jpg"/>
+				</a>
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>好谷就业力</title>
+		<style>
+			#img{
+				width: 100 px;
+				cursor: pointer;  /* 鼠标移入出现手型 */
+			}
+		</style>
+	</head>
+	<body>
+		<img src="images/a.png" id="img" alt="" />
+		<script>
+			var oImg = document.getElementById("img");
+			var i = 0;
+			oImg.onclick = function () {
+				i = i + 1;
+				if (i % 2 != 0) {
+					oImg.src = "images/b.png"
+				}else{
+					oImg.src = "images/a.png"
+				}
+			}
+		</script>
+	</body>
+</html>

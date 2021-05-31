@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上周回顾</title>
+</head>
+<body>
+    <!-- 回顾
+        块标签或块元素
+            特点：1.独占一行，默认宽度100%
+                  2.可以直接设置宽度和高度
+            标签：div,ul-li,ol-li,dl-dt、dd,p,table,form
+            转换：
+                display:inline  转成行内标签
+                display:inline-block 转成行内块标签
+                display:block  默认
+        行内标签或内敛标签
+            特点：1.在一行显示，默认大小由内容撑开
+                  2.直接设置宽度和高度
+            标签：span,strong/b,em/i,ins/u,del/s,sub,sup,a
+            转换：
+                display:block  转成块标签
+                display:inline-block 转成行内块标签
+                display:inline  默认
+        行内块标签或内敛块标签
+            特点：1.在一行显示，如果换行写，水平方向会有4px的距离
+                  2.可以设置宽度和高度
+            标签：
+                input,img,td,select,textarea
+            转换：
+                display:inline  转成行内标签
+                display:inline-block 默认
+                display:block  转成块标签
+    -->
+    <style type="text/css">
+        .box{
+            width: 300px;
+            height: 300px;
+            /* background-color: red;
+            background-image: url(../images/a.png);
+            background-repeat: no-repeat;
+            background-position: center center; */
+            /* 背景简写 */
+            background: url(../images/abcd.jpg) no-repeat red center center;  
+            /* 没有顺序，但一般按顺序写 */
+            background-size: 100% 100%;
+
+            font-size: 50px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 300px;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: line-through;
+            letter-spacing: 5px;
+        }
+    </style>
+    <div class="box">
+        好谷就业力
+    </div>
+</body>
+</html>

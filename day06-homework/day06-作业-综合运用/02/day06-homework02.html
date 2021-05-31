@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 700px;
+            height: 700px;
+            margin: 0 auto;
+        }
+        .clear{
+            clear: both;
+            height: 10px;
+        }
+        .a{
+            width: 200px;
+            height: 25px;
+            float: left;
+        }
+        .a span:nth-child(1){
+            font-weight: 700;
+            color: #214280;
+        }
+        .a span:nth-child(2){
+            color: #ccc;
+        }
+        .b{
+            width: 700px;
+            height: 220px;
+            overflow: hidden;
+        }
+        .b li{
+            /* display: block; */
+            list-style: none;
+            width: 114px;
+            height: 110px;
+            float: left;
+            background: #3065bc;
+            text-align: center;
+            color: white;
+            margin-right: 2px;
+            margin-top: 2px;
+        }
+        .b li:nth-child(1){
+            width: 160px;
+            height: 40px;
+            padding: 35px 35px;
+            font-weight: 700;
+            color: white;
+            font-size: 20px;
+        }
+        .b li:nth-child(2){
+            width: 190px;
+            height: 40px;
+            background: #6d93cf;
+            padding: 35px 20px;
+            font-weight: 700;
+            color: white;
+            font-size: 20px;
+        }
+        .b li:nth-child(3){
+            font-size: 14px;
+            line-height: 110px;
+        }
+        .b li:nth-child(4),
+        .b li:nth-child(8),
+        .b li:nth-child(9){
+            font-size: 15px;
+            width: 114px;
+            height: 40px;
+            padding: 35px 0;
+        }
+        .b li:nth-child(5),
+        .b li:nth-child(7),
+        .b li:nth-child(10){
+            font-size: 15px;
+            width: 114px;
+            height: 40px;
+            padding: 35px 0;
+            background: #6d93cf;
+        }
+        .b li:nth-child(6){
+            font-size: 15px;
+            width: 114px;
+            height: 60px;
+            padding: 25px 0;
+        }
+        .c{
+            width: 700px;
+            height:400px;
+            overflow: hidden;
+        }
+        .c li{
+            list-style: none;
+            width: 300px;
+            height: 200px;
+            float: left;
+            margin-right: 40px;
+            margin-top: 2px;
+        }
+        .c li:nth-child(2n){
+            width: 360px;
+            float: right;
+            margin-right: 0;
+        }
+        .c li:nth-child(1){
+            background-image: url(images/11.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .bottom{
+            width: 300px;
+            height: 35px;
+            margin-top: 165px;
+            background: #322b20;
+            line-height: 35px;
+            text-align: left;
+            color: #fffff6;
+            font-size: 12px;
+        }
+        .c li:nth-child(2),.c li:nth-child(4){
+            line-height:38px;
+            /* text-align: left; */
+        }
+        .c li:nth-child(2) p:nth-child(1),
+        .c li:nth-child(4) p:nth-child(1){
+            font-weight: 700;
+        }
+        .left{
+            width: 140px;
+            height: 170px;
+            background: #ccc;
+            float: left;
+            margin-top: 20px;
+        }
+        .t1{
+            width: 140px;
+            height: 120px;
+            background-image: url(images/22.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            clear: both;
+        }
+        .t2{
+            width: 140px;
+            height: 120px;
+            background-image: url(images/33.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            clear: both;
+        }
+        .right{
+            width: 140px;
+            height: 170px;
+            background: #ccc;
+            float: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="a"><span>热搜新闻词</span><span><sub>HOT WORDS</sub></span></div>
+        <div class="clear"></div>
+        <div class="b">
+            <ul>
+                <li>全国政协十三届四次会议在京开幕</li>
+                <li>习近平：我国脱贫攻坚战取得了全面胜利</li>
+                <li>2021两会</li>
+                <li>31省区市新增10例境外输入确诊</li>
+                <li>天问一号拍摄到高清火星影像图</li>
+                <li>委员建议不将英语设为高考必考科目</li>
+                <li>6岁女孩去世捐器官救5人</li>
+                <li>老人摔跤没人敢扶？真相曝光</li>
+                <li>捷克总统请求中国提供新冠疫苗</li>
+                <li>外媒:CGTN可继续在欧播出</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="a"><span>百家号</span><span><sub>BAIJIA</sub></span></div>
+        <div class="clear"></div>
+        <div class="c">
+            <ul>
+                <li>
+                    <div class="bottom">鱼大水更大，中国创投重回2015？</div>
+                </li>
+                <li>
+                    <p>董明珠培养的接班人出走，格力要变天？</p>
+                    <p>虎牙被抬员工当事人：已收到开庭通知</p>
+                    <p>“缺芯”的真相，春天还很远</p>
+                    <p>货拉拉变“祸拉拉”，货运平台乱象几时休？</p>
+                    <p>百果园难逃的宿命</p>
+                    <p><hr /></p>
+                </li>
+                <li>
+                    <div class="left">
+                        <div class="t1"></div>
+                        <div class="b1">PD-1年费用进入1万元区间</div>
+                    </div>
+                    <div class="right">
+                        <div class="t2"></div>
+                        <div class="b1">“单身经济”的狂欢与下沉市场无关</div>
+                    </div>
+                </li>
+                <li>
+                    <p>生鲜电商纷纷上市，但赛道并不性感</p>
+                    <p>再次盈利的芒果超媒，下一步剑指电商</p>
+                    <p>曾被王思聪唱衰的共享充电宝是怎么反盘的？</p>
+                    <p>米聊复活，转换赛道后如何跑赢？</p>
+                    <p>工信部坚决下架不接受整治的APP</p>
+                    <p><hr /></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

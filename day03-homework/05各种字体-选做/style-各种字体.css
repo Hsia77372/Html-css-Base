@@ -1,0 +1,50 @@
+*{
+    font-family: "宋体";
+    font-weight: 600;
+}
+.span1{
+    color: #FCCF20;
+    font-size: 30px;
+}
+
+.p1{
+    color: purple;
+    background-color: #CCCCCC;
+    width: 290px;
+    height: 60px;
+}
+
+.p2{
+    color: green;
+    font-size: 20px;
+}
+
+.p3{
+    color: red;
+    font-size: 30px;
+}
+
+.p4{
+    color: #CDCDCD;
+    font-font: "楷体";
+}
+
+.p5{
+    text-indent: 32px;
+    height: 3px;
+}
+
+.p6{
+    height: 3px;
+}
+
+.p7{
+    color: blue;
+}
+
+.p8{
+    background-color: #CCCCCC;
+    width: 210px;
+    height: 60px;
+    margin-left: 32px;
+}
